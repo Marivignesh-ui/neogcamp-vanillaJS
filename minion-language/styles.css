@@ -1,3 +1,6 @@
+:root{
+    --primarycolor:yellow;
+}
 body{
     margin: 0%;
     background-image:linear-gradient(to right,blue 0%,red 80%), url("images/bgimage.jpg");
@@ -6,13 +9,14 @@ body{
     text-align: center;
 }
 header{
-    padding:1%;
+    padding:5px;
     text-align: center;
-    background-color: yellow;   
+    background-color: var(--primarycolor);
+    width: 100%;   
 }
 
 button{
-    background-color: yellow;
+    background-color: var(--primarycolor);
     border: none;
     border-radius: 5px;
     padding:10px;
@@ -31,8 +35,18 @@ textarea{
     font-size: x-large;
 }
 footer{
-    background-color: yellow;
+    background-color: var(--primarycolor);
     bottom: 0;
     width: 100%;
     text-align: center;
+    padding:5px;
+}
+.socialmedia{
+    color: black;
+    display: inline-block;
+    margin-left: 3px;
+}
+.head-socialmedia {
+    position: fixed;
+    right: 2px;
 }

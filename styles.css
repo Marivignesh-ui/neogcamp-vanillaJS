@@ -3,7 +3,7 @@
 }
 body{
     margin: 0%;
-    background-image:linear-gradient(to right,blue 0%,red 80%), url("/images/bgimage.jpg");
+    background-image:linear-gradient(to right,blue 0%,red 80%), url("images/bgimage.jpg");
     background-size: cover;
     background-blend-mode: lighten;
     text-align: center;

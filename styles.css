@@ -1,0 +1,38 @@
+body{
+    margin: 0%;
+    background-image:linear-gradient(to right,blue 0%,red 80%), url("images/bgimage.jpg");
+    background-size: cover;
+    background-blend-mode: lighten;
+    text-align: center;
+}
+header{
+    padding:1%;
+    text-align: center;
+    background-color: yellow;   
+}
+
+button{
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    padding:10px;
+    margin-top: 5%;
+}
+button:hover{
+    background-color: bisque;
+    cursor: pointer;
+}
+textarea{
+    width: 60%;
+    height: 15%;
+    border: solid 2px rgb(27, 27, 1);
+    padding: 2%;
+    margin: 1%;
+    font-size: x-large;
+}
+footer{
+    background-color: yellow;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
